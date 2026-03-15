@@ -99,9 +99,9 @@ export default function WhyAlpAahar({ onOrderClick }) {
                 {/* Hero Card */}
                 <div ref={addToRefs} className="relative h-96 lg:h-[500px] rounded-[2rem] overflow-hidden shadow-2xl group">
           <img
-            src="../public/logo.png"
-            alt="Fresh Vegetables"
-            className="w-full h-full object-cover"
+            src="/logo.png"
+            alt="Alp Aahar Logo"
+            className="w-full h-full object-contain p-8 bg-[#ffecd6]"
           />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent"></div>
                 
